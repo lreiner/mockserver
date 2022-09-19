@@ -1,127 +1,59 @@
 {
   "users": [
     {
-      "UserId": "be1dbe88-6117-442e-b18b-ed29b0e7d441",
-      "firstName": "Glória",
-      "lastName": "Olszewski",
-      "role": "Contributor",
-      "email": "hiromi.garcia247@aliceadsl.io",
-      "phoneNumber": "+1(868)038 5195",
-      "addresses": [
-        {
-          "AddressId": "99d39d53-1e1d-49df-8e5f-42097ce7cb46",
-          "streetName": "Harber Village",
-          "number": 4379,
-          "country": "Spain",
-          "AddressType": "HomeAddress"
-        },
-        {
-          "AddressId": "97ea8a77-3240-4fd1-afad-3941f30bd2af",
-          "streetName": "Jocelyn Throughway",
-          "number": 5091,
-          "country": "Tajikistan",
-          "AddressType": "HomeAddress"
-        },
-        {
-          "AddressId": "f17c3bf4-573f-4fab-8a1e-026e53c456b5",
-          "streetName": "Arturo Manors",
-          "number": 8306,
-          "country": "Central African Republic",
-          "AddressType": "HomeAddress"
-        }
+      "userId": 1,
+      "name": "Ashley Davis",
+      "department": "Human Resource Management",
+      "profileImageUrl": "data:image/jpeg;base64,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",
+      "status": "active",
+      "role": "HR Compliance",
+      "controls": [
+        { "controlId": 1, "status": "active" },
+        { "controlId": 2, "status": "active" },
+        { "controlId": 3, "status": "active" },
+        { "controlId": 4, "status": "active" }
       ]
     },
     {
-      "UserId": "baa83a70-58c6-4724-bd2c-d8fc529a7a62",
-      "firstName": "Sílvia",
-      "lastName": "Veselý",
-      "role": "Admin",
-      "email": "steinunn.govender@googlemail.org",
-      "phoneNumber": "+60 11 3733 4336",
-      "addresses": [
-        {
-          "AddressId": "53509d01-3e41-4b8b-a7e8-d25b666aeeea",
-          "streetName": "Rohan Tunnel",
-          "number": 3568,
-          "country": "Burkina Faso",
-          "AddressType": "PaymentAddress"
-        },
-        {
-          "AddressId": "cbb76b35-fadf-4ef4-ac08-0dace2c43f68",
-          "streetName": "Harber Village",
-          "number": 7512,
-          "country": "Canada",
-          "AddressType": "PaymentAddress"
-        },
-        {
-          "AddressId": "39b7df43-96aa-4a3c-9806-36e8676a61cc",
-          "streetName": "Konopelski Inlet",
-          "number": 3241,
-          "country": "Wallis and Futuna",
-          "AddressType": "PaymentAddress"
-        }
+      "userId": 2,
+      "name": "Cordula Green",
+      "department": "Sales",
+      "role": "Coordinator",
+      "profileImageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACAAIADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABQYDBAcCAQD/xAA5EAACAQMDAQYDBwIFBQAAAAABAgMABBEFEiExBhMiQVFhFHGBIzJCkaGxwVLRFSQzcuEWQ1Oy8P/EABoBAAMBAQEBAAAAAAAAAAAAAAECAwQABQb/xAAjEQACAgIBBAIDAAAAAAAAAAAAAQIREiEDBBMxQTJRYXGB/9oADAMBAAIRAxEAPwDPd+qajBHbJZeP7oYHJ2f0n2BonYaNeRWk1k9ooWXJ77vAAnGKswSTQPuUu4xyHYgD8qo6hHJdyMhe4jVvPO7HsM0ck/A2LCC6FPHCS+rWMO3wjxZLe5yartoFrLJ395rMUijIyhx06gVZNqkNlZNIxBhAGQoYkg4zQnVbNU1GSZV2oWPngj3xRjVgkEY7zs/Yp3Udt33GCWi3bj9antdW0cypBa6MWlc4GSEH80Di09rqVFUMMnAbPU1etLaWy1KNpR3ZXcRnzwKNpgphT/qCVe7jisI4S77BGuWJ+eBVtZdYuE8CRIueiJ0/WoOy2nyatdyyRI8ku7AdeAo8zmtV03sobJY2bZIMcj0+lJJpBSEmx0O+kiad5SU812jwn16VHcdnLrk7J3B8gcKvuPWtZOnqMSW+IpAOQB4W+dcps3FJI+6lHVT0Py9aCkHExa80SRYHX4V2c48W3GPc0KbSZIjmRQz/AO3p7Vv1xYxyISFBz50u32jwTI4lgjyn3wRyPQg+lDKzqMjNt3X3kAB46VTnsojcpuU5YfeA860DU+z6QIWTwpkEEHIpQvYDLdqiuIih8TMcGmi2hWhbFmZGkwPutiunhVEUMgyv71PNeW9lc3KtKXVmyoC+fmeP5qtNeWk6b2mKjPCDqfypm2ChkaQz6dGIYC8hIyUB5AHmarNBqEikR6dMg9X9PzrldavpgFSGNcH73dsf5qUX+sb5EcoFjUkgwY/c0MaGyPE07VWDhLRo0ZdqrLODjzz9asaho+qagYrg20EMiD/Q73lvQ5x+lD49Z1aTJ72MDkKNgqWPUdSlkwbltwx1UCj4O8nD6ZrTwjbZGLa2QSxz+lXdL7I6xrGqwtqM7Ro58e0YJXqQPpUkOoavJ4fjZgSPw4HH5U+dkNN1G409rqW5keSNwEZznOKVSXhDYt+Q9pPZ+10B/sDsiY7k2kjGfKmQThFUufAeN3p86oW91DeK1rMu2THKnj6ivj3lg22T7SBuNwH7ipsdIKnkZUjP71FKi3EeD1H6GqXxJtCHBMlq3Ug5K1d35USRkHz/ANwoAaOLWcd4beQneOmfMVzd22SrpjvE6Z6MPNT7GubuIXEYuIWO4fmK9tLsXUTRS/6qcHPnRYoq6qkdq2cf5V+SDztpL10Lar30aFnXghPMHoR7VomtRLJFIhHU5wfX/wC4P0pHuLcbCrnCKpHP9J6imi6dMDQiTalZGZ/iLUO4OCwxVWTUNM2/Z2GT1ySBVLVbR4LmbBJVW4f+oHpQpnx4WOMc8+daMUStjgH2yM4bIZiQ2MflRJLofCSyyfasUbgEEnPTj6UItLvSo8tJpRCjBKs4YgUetdf04H/L6ZbBABhsjIPyxUXF2VTQJtLIG3ZpJY4CGGD5HPl616qqgz8UFOce4+YPrRx9ctWcymxhlkHk6gbvrip1uN8cMh7MwBZF353rwPfjg0tMa0CotVuYF2PKiqQNrBAXb24zW1dnojBodojklzErMSMEkjJ/esri1S3tRtg0KOPcf/IOT+VaXBrlm6iGGRRKgAeM8Mp9MUrjQ8dl+6tIpsEjDjkMvBFcR3RjHdXXiU8b/L6/3qrJqKqNxNCbvtbpdupR5Q7DghOaFj4h+WM2rb1G+FvLPBHp/wA15C7WjhFJaBhmM+g8xQPRu04u7j4d7UpZvwGc4IPy9KKMe5nazlY7G8UbH9MftXCtF6WYwH4lMtGf9VR6etULp2iu1mhPXlSPMeldxzsgKseAcHNQHER7nd9kxzGT+A+lcITXzLdW4lXnilDUYmWfcASrcEe9NSo8e7jKt94ehoJqMRIbHWuBRnfaDSLmcJ3KxqRkbRjav1pZk7J3ajKyRNnqCTx9adNUjvnDfaBV3kEiPn5c/vQt4r1Y/s7tXP8AS4yasuShMUxTuSZoWlVgM5xtOMnPpX1nIY1I456/PFMy2+j3GyRdDu1B5bDBQtFYYtHG6NNDaR4iAwGGPPnwcU2VAoU0uAkeXDF88kPgYpu07UBNpMURkbczYBZs8eea9lsdCDmSXRmh29VY9T9G5qxa3Ghxsph09VcdCqLn/wBqDaezkqOptLv4I2le0lEKqSpC+X0pX1DtFfXV5NfxRTiO3K+IwEAeXLcedOlr8JKC1vd6im5slY7lvEeuSMnFR3fZa4vbS4ktbq6UOQssU7bxJ5556c0FJXseN+glpuqjtB2bivoAwDgpIvmrDgj+frSXrDppMTNCh74nC+ZJrSOyXZ5NI7KfDnG+WZ5T9cD+KC692WF6+7O1kJKsvUGpNLL8GqLdV7Mxn1vtBpk6i5kuonKh1DAMMfIfKtH7JdsZu1Ng1jdLsv4FzGwGA3tQO67NXl+8Ud7M8ixDapIGcemaZ9D0e20lB8PEEYfixzRk41SEUJ3saY5nktUuHwD92Qeh964eVWUxvgqRwDVaV8ox3bVYAOPf1oK18ySGF8Bs4Kt0Py9Kmmc4DHHdOvgLHvFGOfMetCrq8HemOTG4fqKGy6obd1Vi2N2Fzz+Rrq9YXUAmTgjrXbYuNItFoL235KC5j4YMuQyj1FBr23tJUfEG1s8Kq0M1BtTMiPZTLGMYbjOagil1+J92beXJz44j/eqNJklaHTTr60nsLdLWaCORo1JGVfA80P6irIjtbS1eGysIg0iH7nAyRWMt2ksJvHd6UHc/iUgE/M8Zq7Ya9obt9pDfwnbyFmYjHtg1V8YuQ2xf56SVDE5dArMw8uP+KHvZx/EMmDuJA3EY+vuKoG60GVIninurM7cLKrtyvoSD616hsPiluz2ilM0HhRyhO3Pr4f3pXFhTQTiie3MiRywqWGyQjqPTNOPZe8Ekc8DuWKgEZ9BxSIYxO8rRa/bsZMbn7oD+BRDRkvdO1WC5/wATtpoB4ZIlZRvU+Z9x1+lJiykZJM1iYCK2RceXQUGvJTb4aQeEnGaiv9W1K3t5JhHDKoPB3fxQhrjUNVRVuWjSPdu8Gc0r0aYoMbYZBuCjJrhgEBK4qm0ctuPC25fKuRcs2BtpLHjEmZiwYDnjp7UH1FVW4Q/ifA+tGEXB3HzoDr8feRSOCfso2YY9a4Dqz6SSG2hdY8M6De0adRnzNTrLvgSMY8SEEehpU7MbporhsndKCGLe3JqyutBtgB8fLADyA/vVFEyznZWur0pcyKwJCngEHrnk1Sh1ErMyhzInTJzk1a16IfHCRCVSdd4GfP2+tBFmjWU7WEoDY3Ecce1USJik29cqdwI4xXcZDHB3e49qcrXUtSvnWMwQMwGRheeKmnk3gLqGmqSMktj+1WtkdITCu98LlV6e1FdFiVZplknCq0fn0JBo1Pa6DDHbzvZyIJRuXu2yGHqea9ZNDg73uY4mKEDeS2OemBQbvQUvZPa6hb7lOE6469RR5LGG7j5tABtLB1Izxk/Wl2a20aaza5julhZI8nGdmQOuPWriahqotV7gQPG6AK6NtOMemM9KnKP0On9jUL24k0B5YJyrQAJKjJvUjHBI/tQK07Q62Ze7HwEmT0WNs/piifZG8mbUHtbuxe3inQrvdx4mHI4/OjR0W3W4Zon2jPSklrTRs4eSLjTKNp/iiFZbuWJlY52Kp8P60S3qcEDAqYxJGmGIPvQ24vFVikeGaoN7LLZZe55Cr97oKq3sYe1ZDyWHNQRM24ux5qfdvAB/FXCyQsXMq6essYjA2rtbHmTQqW9g08Bn09JRJ/3FbHHpzTJ2g0yS4tjdwxFynLovVhjr9KS7653QxQOhCKNwLelXhsxzVMb7KTTe1OmfC9zi9txmFSRlvYfP9wKVJYNKMjKwlidSQykEEHzB5ofBMLWRJ7WQo6nIK+dF7q4tO0h3u62uqY5djhJ/n6N7/n602JOy/wBnJLBJH76ZEErCSNpBtwMYIyfLNT649rDavcxXMMxXxbI5QT7cZpIGtXMmEnEcyDpvTH7VLHqFixX4jTUbac5RsU6W7FaTRw1z8TG0oCoucEBcAHPpUYdcBieo658qNJrfZ7G19McZGDlQ3H51HG/Zy5XAgEZ6klWGPrzTM5KihZzItwqmTYJBjcPXyzTdaWMFk4m+9O4BJbkIPQelC4bPS43hnsmZyTwDJuUH/iiCT5DuTy7eH5eVPCO8mQ5Zv4oLrO3fB8gEdCPKjmgQ3+tXExJaKzjXHf8A9cmfugegHU+vFJGo6gbHT7q5UFjGNi+YL4/itc7MyIeyWkSIpXdaRkqfUqCf1yfrSc1NF+jyTbBWo6abeJwtzJIwHU8CloZRjz4s06atkRs3ljJpLuCEdj71inE9XjbosxNkcmpozluvShaTkGrKXGME0EgTGSDa6ZP1NZPqsNteXs64wqyt3ZU4I5NPV/qfwejzyq+H24X5ms3aTdyevWtPFH2YOplVIp3Fpe27eARzReRxgj51BEt3Fcd68IdCCNgajCynC56EdfSpVWIKz5Ik6YxwwqtGeMt7FQ97GxzEefbNdeIEnu2GPY1YRiVyJWO38J6VbTUmjwHRHXHB29a4oCcnIy3i96OaXFE9hMcEznI6+WOOKiSeynDmS2DP1ADAcfWu4PgXkf4Qyqyr0YbRzxRasD0rCdqypFlRkKhIx712b1Law+IY8xoGRcdT5UIW5K6ZhSd4yn8Cu7oLNe2Viz4iUh5seSryf0/eqNmZRthgWsl1pKQSsSBFMSoHWRk3E/TgVsVldJDY20aLiMQoFAHQbRWW6fIHtbOTYVLRyTke5b+2Ke9I1aI6ZEjDc0Q28enl+lYe5lJn1HJ0Ha6bjml+/wChTVpFfTpNmNxGMUCbS3ljUsOvWiYuY55A7xeEmiE0sQiURjPqKNWY2mhFl0+YzsVQhc8VMLKXZgr0pieaINlx+lQXF5p9shklfnyUdTQpIKUpukrYgdoJXWMQnOC3FLcgYghRRjtLqCXF94F2Ko8K5zS+JibhgGICjBHrWjj+J5vVRlHlcZeUXSwVR7V53rJxngnoR0qv34Ee48sxwBX3iC4yN/mfSnM5/9k=",
+      "status": "partial",
+      "controls": [
+        { "controlId": 1, "status": "active" },
+        { "controlId": 2, "status": "inactive" },
+        { "controlId": 3, "status": "active" },
+        { "controlId": 4, "status": "active" }
       ]
     },
     {
-      "UserId": "7647e57c-75bc-4ba2-ba26-163dcda2fda4",
-      "firstName": "Páll",
-      "lastName": "Łapiński",
-      "role": "Contributor",
-      "email": "kasia+wairimu@chello.com",
-      "phoneNumber": "+291 3 380 617",
-      "addresses": [
-        {
-          "AddressId": "ee7dc0a8-2d49-44bc-a9dd-a6c3ed853bbf",
-          "streetName": "Kuphal Mountain",
-          "number": 6427,
-          "country": "Azerbaijan",
-          "AddressType": "FavouriteAddress"
-        },
-        {
-          "AddressId": "d245f7c1-1dfa-487a-a7c0-701f1dc7ce65",
-          "streetName": "Cole Center",
-          "number": 6678,
-          "country": "Croatia",
-          "AddressType": "HomeAddress"
-        },
-        {
-          "AddressId": "bc1d5460-7569-4afc-b6ec-e79e91a46ab3",
-          "streetName": "Howell Plaza",
-          "number": 6413,
-          "country": "Ethiopia",
-          "AddressType": "PaymentAddress"
-        }
+      "userId": 3,
+      "name": "Marcus Lopez",
+      "department": "Accounting and Finance",
+      "role": "HR Compliance",
+      "profileImageUrl": "",
+      "status": "active",
+      "controls": [
+        { "controlId": 1, "status": "active" },
+        { "controlId": 2, "status": "active" },
+        { "controlId": 3, "status": "active" },
+        { "controlId": 4, "status": "active" }
       ]
     },
     {
-      "UserId": "c9a99faa-d75d-424d-abe3-da9739e48c3d",
-      "firstName": "Gísli",
-      "lastName": "Ólafsson",
-      "role": "Contributor",
-      "email": "udom+garba455@rocketmail.dev",
-      "phoneNumber": "+1(670)155 2422",
-      "addresses": [
-        {
-          "AddressId": "89880548-9d52-469e-bb62-25b3f67f2563",
-          "streetName": "King Drives",
-          "number": 8373,
-          "country": "Burkina Faso",
-          "AddressType": "HomeAddress"
-        },
-        {
-          "AddressId": "189e9ecd-1740-463a-98dd-66604d302053",
-          "streetName": "Kuphal Mountain",
-          "number": 4564,
-          "country": "Sri Lanka",
-          "AddressType": "FavouriteAddress"
-        },
-        {
-          "AddressId": "2f760f36-4715-445d-9fdd-1ae0fef70dbc",
-          "streetName": "Zboncak Center",
-          "number": 7375,
-          "country": "Puerto Rico",
-          "AddressType": "PaymentAddress"
-        }
+      "userId": 4,
+      "name": "Marc Nelson",
+      "department": "Accounting and Finance",
+      "role": "Coordinator",
+      "profileImageUrl": "",
+      "status": "active",
+      "controls": [
+        { "controlId": 1, "status": "active" },
+        { "controlId": 2, "status": "active" },
+        { "controlId": 3, "status": "active" },
+        { "controlId": 4, "status": "active" }
       ]
     }
   ]
