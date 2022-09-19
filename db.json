@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "UserId": "be1dbe88-6117-442e-b18b-ed29b0e7d441",
+      "firstName": "Glória",
+      "lastName": "Olszewski",
+      "role": "Contributor",
+      "email": "hiromi.garcia247@aliceadsl.io",
+      "phoneNumber": "+1(868)038 5195",
+      "addresses": [
+        {
+          "AddressId": "99d39d53-1e1d-49df-8e5f-42097ce7cb46",
+          "streetName": "Harber Village",
+          "number": 4379,
+          "country": "Spain",
+          "AddressType": "HomeAddress"
+        },
+        {
+          "AddressId": "97ea8a77-3240-4fd1-afad-3941f30bd2af",
+          "streetName": "Jocelyn Throughway",
+          "number": 5091,
+          "country": "Tajikistan",
+          "AddressType": "HomeAddress"
+        },
+        {
+          "AddressId": "f17c3bf4-573f-4fab-8a1e-026e53c456b5",
+          "streetName": "Arturo Manors",
+          "number": 8306,
+          "country": "Central African Republic",
+          "AddressType": "HomeAddress"
+        }
+      ]
+    },
+    {
+      "UserId": "baa83a70-58c6-4724-bd2c-d8fc529a7a62",
+      "firstName": "Sílvia",
+      "lastName": "Veselý",
+      "role": "Admin",
+      "email": "steinunn.govender@googlemail.org",
+      "phoneNumber": "+60 11 3733 4336",
+      "addresses": [
+        {
+          "AddressId": "53509d01-3e41-4b8b-a7e8-d25b666aeeea",
+          "streetName": "Rohan Tunnel",
+          "number": 3568,
+          "country": "Burkina Faso",
+          "AddressType": "PaymentAddress"
+        },
+        {
+          "AddressId": "cbb76b35-fadf-4ef4-ac08-0dace2c43f68",
+          "streetName": "Harber Village",
+          "number": 7512,
+          "country": "Canada",
+          "AddressType": "PaymentAddress"
+        },
+        {
+          "AddressId": "39b7df43-96aa-4a3c-9806-36e8676a61cc",
+          "streetName": "Konopelski Inlet",
+          "number": 3241,
+          "country": "Wallis and Futuna",
+          "AddressType": "PaymentAddress"
+        }
+      ]
+    },
+    {
+      "UserId": "7647e57c-75bc-4ba2-ba26-163dcda2fda4",
+      "firstName": "Páll",
+      "lastName": "Łapiński",
+      "role": "Contributor",
+      "email": "kasia+wairimu@chello.com",
+      "phoneNumber": "+291 3 380 617",
+      "addresses": [
+        {
+          "AddressId": "ee7dc0a8-2d49-44bc-a9dd-a6c3ed853bbf",
+          "streetName": "Kuphal Mountain",
+          "number": 6427,
+          "country": "Azerbaijan",
+          "AddressType": "FavouriteAddress"
+        },
+        {
+          "AddressId": "d245f7c1-1dfa-487a-a7c0-701f1dc7ce65",
+          "streetName": "Cole Center",
+          "number": 6678,
+          "country": "Croatia",
+          "AddressType": "HomeAddress"
+        },
+        {
+          "AddressId": "bc1d5460-7569-4afc-b6ec-e79e91a46ab3",
+          "streetName": "Howell Plaza",
+          "number": 6413,
+          "country": "Ethiopia",
+          "AddressType": "PaymentAddress"
+        }
+      ]
+    },
+    {
+      "UserId": "c9a99faa-d75d-424d-abe3-da9739e48c3d",
+      "firstName": "Gísli",
+      "lastName": "Ólafsson",
+      "role": "Contributor",
+      "email": "udom+garba455@rocketmail.dev",
+      "phoneNumber": "+1(670)155 2422",
+      "addresses": [
+        {
+          "AddressId": "89880548-9d52-469e-bb62-25b3f67f2563",
+          "streetName": "King Drives",
+          "number": 8373,
+          "country": "Burkina Faso",
+          "AddressType": "HomeAddress"
+        },
+        {
+          "AddressId": "189e9ecd-1740-463a-98dd-66604d302053",
+          "streetName": "Kuphal Mountain",
+          "number": 4564,
+          "country": "Sri Lanka",
+          "AddressType": "FavouriteAddress"
+        },
+        {
+          "AddressId": "2f760f36-4715-445d-9fdd-1ae0fef70dbc",
+          "streetName": "Zboncak Center",
+          "number": 7375,
+          "country": "Puerto Rico",
+          "AddressType": "PaymentAddress"
+        }
+      ]
+    }
+  ]
+}
